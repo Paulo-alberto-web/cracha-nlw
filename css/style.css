@@ -86,8 +86,25 @@ ul{
 
 /* media screm for table  */
 
-@media screen and (min-width:768px){
+@media screen and (min-width:1080px){
 
+   body{
+    background-image: url(../imagens/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    min-height: 812px;
+    height: 100vh;
+   }
 
+   .main{
+       width: 358px;
+       height: 340px;
+       border: 1px solid yellow;
+       background: #fff;
+       display: none;
+   }
+    
     
 }
