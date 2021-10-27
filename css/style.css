@@ -86,7 +86,7 @@ ul{
 
 /* media screm for table  */
 
-@media screen and (min-width:1080px){
+@media screen and (max-width:1080px){
 
    body{
     background-image: url(../imagens/background.png);
